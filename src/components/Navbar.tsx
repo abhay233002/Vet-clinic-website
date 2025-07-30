@@ -10,7 +10,10 @@ export default function Navbar() {
           <Link href="/about" className="hover:underline">About</Link>
           <Link href="/services" className="hover:underline">Services</Link>
           <Link href="/contact" className="hover:underline">Contact</Link>
-          <Link href="/appointment" className="hover:underline">Appointment</Link>
+          <Link href="/appointment" className="hover:underline">Book Appointment</Link>
+          <Link href="/login" className="text-blue-600 hover:underline bg-white px-3 py-1 rounded">
+            Doctor Login
+          </Link>
         </div>
       </div>
     </nav>
